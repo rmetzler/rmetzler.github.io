@@ -54,7 +54,7 @@ p {
   background-color: white;
 }
 
-.body_bg_color {
+body {
   background-color: #4a4a4a;
 }
 
@@ -166,7 +166,8 @@ ol {
 }
 
 .bg, body, #header, .fixed {
-  background-image: url("//subtlepatterns.com/patterns/black_paper.png");
+  /*background-image: url("http://subtlepatterns.com/patterns/black_paper.png");*/
+  background-image: url("../images/black_paper.png");
 }
 
 body {

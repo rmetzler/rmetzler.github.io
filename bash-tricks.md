@@ -13,19 +13,19 @@
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/1.1/waypoints.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0.beta2/handlebars.min.js"></script>
-    
+
     <script id="partial-mixcloud" type="text/x-handlebars-template" charset="utf-8">
       <li class="square">
   <div
-  class="mixcloud tile_bg_color image-only {{#hover_url}}hide_on_hover{{/hover_url}}" 
+  class="mixcloud tile_bg_color image-only {{#hover_url}}hide_on_hover{{/hover_url}}"
   style="
     {{#bg_color}} background-color:{{{bg_color}}}; {{/bg_color}}
     ">
-    
+
     <div class="table full-width ">
-      <div class="table-cell middle"> 
+      <div class="table-cell middle">
         <a href="{{url}}" target="_blank">
-          <img src="{{#pictures}}{{large}}{{/pictures}}" alt="" />        
+          <img src="{{#pictures}}{{large}}{{/pictures}}" alt="" />
         </a>
       </div>
 
@@ -36,7 +36,7 @@
 
 
     </script>
-    
+
     <script type="text/javascript" charset="utf-8">
       (function() {
 
@@ -137,23 +137,23 @@
     <div id="header" class="fixed">
       <div>
         <p class="p10-20 fixed">
-          
-        </p>          
+
+        </p>
       </div>
     </div>
-    
+
     <div id="container">
 
       <div id="main" class="">
-        <p>curl http://api.mixcloud.com/rmetzler/favorites/ &gt; favs.json</p>
+        <p>curl https://api.mixcloud.com/rmetzler/favorites/ &gt; favs.json</p>
 
       </div>
 
       <div id="footer" class="">
         <p class="p10-20">
-          
+
         </p>
-      </div> 
+      </div>
 
     </div>
   </body>
