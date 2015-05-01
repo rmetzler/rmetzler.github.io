@@ -5,14 +5,14 @@
     <title></title>
     <link rel="stylesheet" href="stylesheets/screen.css">
     <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
 
-    <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.4.min.js"></script>
+    <script src="//ajax.microsoft.com/ajax/jquery/jquery-1.4.4.min.js"></script>
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script-->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/1.1/waypoints.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0.beta2/handlebars.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/1.1/waypoints.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0.beta2/handlebars.min.js"></script>
     
     <script id="partial-mixcloud" type="text/x-handlebars-template" charset="utf-8">
       <li class="square">
@@ -86,7 +86,7 @@
     return _results;
   };
 
-  next = 'http://api.mixcloud.com/rmetzler/favorites/';
+  next = '//api.mixcloud.com/rmetzler/favorites/';
 
   ajax_semaphore = false;
 
