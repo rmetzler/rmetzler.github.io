@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'GraublauSans-Bold';
+  src: url("../fonts/graublausans-bold.eot");
+  src: url("../fonts/graublausans-bold.eot?#iefix") format("embedded-otype"), url("../fonts/graublausans-bold.woff") format("woff"), url("../fonts/graublausans-bold.ttf") format("truetype"), url("../fonts/graublausans-bold.svg#GraublauSans-Bold") format("svg");
+}
+
+@font-face {
+  font-family: 'GraublauSans-Light';
+  src: url("../fonts/graublausans-light.eot");
+  src: url("../fonts/graublausans-light.eot?#iefix") format("embedded-opentype"), url("../fonts/graublausans-light.woff") format("woff"), url("../fonts/graublausans-light.ttf") format("truetype"), url("../fonts/graublausans-light.svg#GraublauSans-Light") format("svg");
+}
+
+@font-face {
+  font-family: 'GraublauSans-LightItalic';
+  src: url("../fonts/graublausans-light-italic.eot");
+  src: url("../fonts/graublausans-light-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/graublausans-light-italic.woff") format("woff"), url("../fonts/graublausans-light-italic.ttf") format("truetype"), url("../fonts/graublausans-light-italic.svg#GraublauSans-LightItalic") format("svg");
+}
+
+@font-face {
+  font-family: 'GraublauSans-Regular';
+  src: url("../fonts/graublausans-regular.eot");
+  src: url("../fonts/graublausans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/graublausans-regular.woff") format("woff"), url("../fonts/graublausans-regular.ttf") format("truetype"), url("../fonts/graublausans-regular.svg#GraublauSans-Regular") format("svg");
+}
+
+/* apply a natural box layout model to all elements */
+* {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.darkblue {
+  background-color: #003346;
+}
+
+.blue {
+  background-color: #01445e;
+}
+
+.lightblue {
+  background-color: #e3ebee;
+}
+
+.red {
+  background-color: #b62f3e;
+}
+
+.white {
+  background-color: white;
+}
+
+.body_bg_color {
+  background-color: #4a4a4a;
+}
+
+.tile_bg_color {
+  background-color: #eeeeee;
+}
+.tile_bg_color:hover {
+  background-color: white;
+}
+
+.font-xxl, .title, .date .month {
+  font-size: 44px;
+}
+
+.font-xl, .date {
+  font-size: 32px;
+}
+
+.font-l, .quote-only blockquote {
+  font-size: 24px;
+}
+
+.font-m, .subtitle {
+  font-size: 18px;
+}
+
+.font-s, body {
+  font-size: 14px;
+}
+
+.font-normal-italic, .who_said {
+  font-family: 'ProximaNovaS-RegularIt';
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 300px;
+}
+
+.p10-20, .quote {
+  padding: 14px 20px;
+}
+
+/** RESPONSIVE **/
+#main {
+  margin: 0 auto;
+}
+@media screen and (min-width: 301px) {
+  #main {
+    width: 301px;
+  }
+}
+@media screen and (min-width: 602px) {
+  #main {
+    width: 602px;
+  }
+}
+@media screen and (min-width: 903px) {
+  #main {
+    width: 903px;
+  }
+}
+
+.fl, ol, li {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.middle, .quote-only blockquote p {
+  vertical-align: middle;
+}
+
+.bottom {
+  vertical-align: bottom;
+}
+
+.super {
+  vertical-align: super;
+}
+
+.top {
+  vertical-align: top;
+}
+
+ol {
+  margin: 0;
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  padding: 0;
+  padding-start-value: 0;
+}
+
+.bg, body, #header, .fixed {
+  background-image: url("http://subtlepatterns.com/patterns/black_paper.png");
+}
+
+body {
+  font-family: 'GraublauSans-Regular', sans-serif;
+  margin: 0;
+  color: #aaa;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+}
+
+.lightblue .invert {
+  color: #e3ebee;
+  background-color: #01445e;
+  padding: 0 0.20em;
+}
+
+#header {
+  width: 100%;
+  position: relative;
+  height: 50px;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#footer {
+  margin-top: 40px;
+  min-height: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.square {
+  height: 300px;
+  width: 300px;
+  margin: 0 1px 1px 0;
+  list-style-type: none;
+  display: table;
+}
+.square .title-tile, .square .date {
+  display: table-cell;
+  vertical-align: middle;
+}
+.square .show_on_hover {
+  display: none;
+}
+.square:hover .hide_on_hover {
+  display: none;
+}
+.square:hover .show_on_hover {
+  display: block;
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+}
+
+hr {
+  width: 200px;
+  height: 1px;
+  padding: 0 !important;
+  border: 0;
+  color: #005373;
+  background-color: #005373;
+}
+
+.square.red,
+.square.darkblue {
+  color: white;
+}
+
+.date {
+  font-family: ProximaNova-Bold;
+}
+
+.quote-only {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.quote-only blockquote {
+  height: 230px;
+}
+.quote-only blockquote p {
+  padding: 0 10px;
+}
+
+.image-quote {
+  height: 300px;
+}
+.image-quote img {
+  width: 100%;
+}
+
+.who_said {
+  display: block;
+  padding-top: 1em;
+}
+
+.square.big {
+  height: 601px;
+  width: 601px;
+}
+.square.big .photo {
+  height: 601px;
+  background-size: 601px 601px !important;
+}
+
+.mixcloud {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+.mixcloud a {
+  display: block;
+  height: 300px;
+}
+
+.photo {
+  position: relative;
+  height: 300px;
+}
+.photo .description {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 51, 70, 0.5);
+  color: white;
+}
+.photo .description p {
+  padding: 1em;
+}
+.photo.hover .description {
+  display: block;
+}
+.photo .who_said {
+  padding-top: 0;
+}
+
+.quote p {
+  padding-top: 1em;
+}
+
+blockquote {
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
